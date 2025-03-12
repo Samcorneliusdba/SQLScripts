@@ -1,0 +1,11 @@
+select db_id('mis_ots')
+select DB_NAME(55)
+
+--Reports information about locks
+sp_lock 55
+
+sp_who --show all process
+
+sp_who2 active 
+
+kill 55 --(id)
